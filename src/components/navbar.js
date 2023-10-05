@@ -5,6 +5,7 @@ import logo from './images/Group1.png'
 import bell from './images/Bell_pin_light.png'
 import Sign from './images/SignUpButton.png'
 import BG1 from './images/BG1.png'
+import slide1 from './images/OrderBookSlide1.png'
 
 const navbar = () => {
     return (
@@ -17,8 +18,6 @@ const navbar = () => {
             <div className='logo'>
                 <img src={logo} alt ="Logo" />
             </div>
-
-
             {/* 2nd logo part */}
             <div className='menu-link'>
                 <ul>

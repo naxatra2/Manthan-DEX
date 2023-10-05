@@ -20,7 +20,6 @@ function Manthan() {
 
     </div>
 
-    <div className='text' ><p>eadable content of a page when looking at its  and </p></div>
     <div className='list-name'>
       <ul class='horizontal-list'>
         <li>

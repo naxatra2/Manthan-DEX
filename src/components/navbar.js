@@ -4,10 +4,14 @@ import './navbar.css'
 import logo from './images/Group1.png'
 import bell from './images/Bell_pin_light.png'
 import Sign from './images/SignUpButton.png'
+import BG1 from './images/BG1.png'
 
 const navbar = () => {
     return (
         <>
+            <div className='waves'>
+                <img src={BG1} alt='' />
+            </div>
         <nav className='main-nav'>
             {/* 1st logo part */}
             <div className='logo'>
@@ -18,10 +22,10 @@ const navbar = () => {
             {/* 2nd logo part */}
             <div className='menu-link'>
                 <ul>
-                    <li >
+                    <li>
                         <a href='#'>KNOW MORE</a>
                     </li>
-                    <li>
+                    <li >
                         <a href='#'>GOVERNANCE</a>
                     </li>
                     <li>
@@ -33,6 +37,8 @@ const navbar = () => {
                     <li>
                         <a href='#'>NEUCRON</a>
                     </li>
+                </ul>
+                <ul className='foto'>
                     <li>
                         <a href='#'>
                             <img src={bell} alt ="" />
@@ -45,20 +51,9 @@ const navbar = () => {
                     </li>
                 </ul>
             </div>
-            <div className='scoial-media'>
-                {/* 3rd social media part */}
 
-            </div>
         </nav>
 
-        {/*extra section */}
-
-        <section className='hero-section'>
-            <p>
-                welcome to
-            </p>
-            <h1>NEWjeans</h1>
-        </section>
     </>
     )
 }

@@ -1,0 +1,90 @@
+/* YourComponent.css */
+.manthan {
+    padding-top: 10%;
+    font-size: xx-large;
+    padding-left: 5%;
+    color: white;
+    
+    /* Add any styles for the section container here */
+}
+
+  .text {
+    font-size: medium;
+    padding-left: 5%;
+    padding-right: 60%;
+    color: gray;
+}
+  .section-heading {
+    text-align: left;
+    color: white;
+    /* Additional styles for your heading can be added here */
+  }
+  .bits {
+    padding-top: 10%;
+    font-size: small;
+    padding-left: 5%;
+    color: white;
+    
+  }
+  .horizontal-list {
+    list-style-type: none; /* Removes default list bullets/numbers */
+    padding: 40px; /* Removes default list padding */
+    display: flex; /* Use flexbox to create a horizontal layout */
+    color: white;
+    font-size: medium;
+    position: absolute;
+    padding-left: 5%;
+  }
+  
+  .horizontal-list li {
+    margin-right: 10px; /* Adjust the spacing between list items as needed */
+    color: white;
+  }
+.navbar-text {
+    margin-right: 10px; /* Adjust the spacing between list items as needed */
+    color: white;
+}
+.vvd {
+    background-color: aqua;
+    width: 200px; 
+    height: 35px;
+    font-size: 20px;
+    padding: 15px 30px; 
+    background-color: aqua;
+    color: black;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 0.5px ;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+    left: 5%;
+}
+. {
+    margin-right: 10px; /* Adjust the spacing between list items as needed */
+    color: white
+}
+.ccd {
+    background-color: aqua;
+    width: 200px; /* Set the desired width */
+    height: 35px; /* Set the desired height */
+    font-size: 20px; /* Set the desired font size */
+    padding: 15px 30px; /* Adjust padding for spacing inside the button */
+    background-color: transparent;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    padding-top: 0px ;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+    left: 25%;
+}

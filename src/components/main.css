@@ -1,0 +1,10 @@
+/* YourComponent.css */
+.main {
+    background-color: aqua;
+    /* Add any styles for the section container here */
+  }
+  
+  .section-heading {
+    text-align: left;
+    /* Additional styles for your heading can be added here */
+  }
